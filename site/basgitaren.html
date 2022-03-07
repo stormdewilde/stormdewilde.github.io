@@ -1,0 +1,153 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/mijnstijlen.css">
+    <title>Basgitaren</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="elektrisch.html">elektrisch</a></li>
+        <li><a href="akoestisch.html">akoestisch</a></li>
+        <li><a href="basgitaren.html">basgitaren</a></li>
+        <li><a href="#amplifiers">amplifiers</a></li>
+        <li><a href="#accessories">accessories</a></li>
+      </ul>
+    </div>
+    <div class="basheader">
+      <h1>Basgitaren</h1>
+    </div>
+    <div class="guitars">
+      <div class="flip-card">
+        <div class="filterDiv ibanez flip-card-inner">
+          <div class="flip-card-front">
+            <img src="bassibanez.png" alt="Avatar">
+          </div>
+          <div class="flip-card-back">
+            <h1>Ibanez GSR200B Walnut Flat</h1>
+            <p class="price">€238,-</p>
+            <p>Zoek je elektrische basgitaar die comfortabel speelt, bijzonder betaalbaar is en waar je ook nog veelzijdig mee uit de hoek kunt komen? Dan is deze 4-snarige GSR200B van Ibanez een uitstekende long scale bas om op te beginnen of om gemakkelijk op weg te spelen. Allereerst heeft deze solidbody een dunne en lichte SR-stijl body en is hij met schroeven verbonden is aan een esdoorn GSR4 hals, die aangenaam aanvoelt en gemakkelijk wegspeelt. De body is overigens gemaakt van exotisch nyatoh, dat ervoor zorgt dat deze basgitaar lekker warm van klank is.</p>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="filterDiv harleybenton flip-card-inner">
+          <div class="flip-card-front">
+            <img src="basshb.png" alt="Avatar">
+          </div>
+          <div class="flip-card-back">
+            <h1>Harley Benton RB-414CS Classic Series</h1>
+            <p class="price">€229,-</p>
+            <p>Een paar single-coil en mini humbucker-pickups geven je een breed scala aan tonen, gecontroleerd door twee volume- en toonpotten. Deze zitten bovenop een prachtig vervaardigde en afgewerkte mahonie body met een heerlijk bespeelbare ingezette mahonie hals. De cherry sunburst finish en het kenmerkende geluid laten je koesteren in de gloed van de jaren 60.</p>
+            <button class="cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="filterDiv vioolbas hofner flip-card-inner">
+          <div class="flip-card-front">
+            <img src="basshofner.jpeg" alt="Avatar">
+          </div>
+          <div class="flip-card-back">
+            <h1>Höfner Ignition TBK SE</h1>
+            <p class="price">€379,-</p>
+            <p>De Höfner Ignition Violin Bass is een instap-variant van de originele Violin Bass, ook wel Beatle Bass. Deze heeft grote faam verworven dankzij niemand minder dan Paul McCartney, die al sinds de beginjaren van de Beatles een liefhebber is van Höfners vioolbas. Karakteristiek is de holle klankkast, wat dit instrument zijn contrabas-achtige sound geeft. Verder liggen de frets comfortabel dicht bij elkaar vanwege de relatief korte snaarlengte. Een smaakvolle bas voor beginners, hobbyisten en verzamelaars!</p>
+            <button class="cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+        <div class="flip-card">
+          <div class="filterDiv ibanez flip-card-inner">
+            <div class="flip-card-front">
+              <img src="bassibanez2.png" alt="Avatar">
+            </div>
+            <div class="flip-card-back">
+              <h1>Ibanez GSR200BK SR</h1>
+              <p class="price">€224,-</p>
+              <p>De GSR200BK SR is een no-nonsense basgitaar. In de goede zin van het woord: deze bas is bijzonder eenvoudig te bespelen, zonder in te leveren op kwaliteit. Een zeer sterke troef van dit instrument is het prijskaartje, dat absoluut ‘nederig’ te noemen is. Ibanez biedt met deze zwarte 4-snarige bas een modern instrument met 22 frets, een geschroefde hals met palissander toets en een body van agathis-hout.</p>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      <div class="flip-card">
+        <div class="filterDiv cort flip-card-inner">
+          <div class="flip-card-front">
+            <img src="basscort.png" alt="Avatar">
+          </div>
+          <div class="flip-card-back">
+            <h1>Cort GB74</h1>
+            <p class="sold">UITVERKOCHT</p>
+            <p>Cort heeft met de GB74 een veelzijdige en voordelige basgitaar in het assortiment. Dankzij de combinatie van een humbucker in de brugpositie en een enkelspoels-element bij de hals is er een breed scala aan geluiden mogelijk. Of u nu houdt van een traditioneel geluid of juist van een moderne punch, de GB74 doet het allebei met gemak. Daarnaast is de volume-knop voorzien van een push-pull optie. Hiermee kunt u de actieve 3-bands equalizer inschakelen, om uw toon nog verder af te stellen. Dankzij deze toevoeging wordt het een stuk makkelijker om een goede toon te vinden en het maakt deze viersnarige Cort basgitaar een breed inzetbaar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="myBtnContainer">
+      <h2>Filters</h2>
+      <h3>Soort</h3>
+      <button class="btn active" onclick="filterSelection('all')"> Alles</button>
+      <button class="btn" onclick="filterSelection('vioolbas')"> Vioolbas</button>
+      <h3>Fabrikant</h3>
+      <button class="btn" onclick="filterSelection('cort')"> Cort</button>
+      <button class="btn" onclick="filterSelection('harleybenton')"> Harley Benton</button>
+      <button class="btn" onclick="filterSelection('hofner')"> Höfner</button>
+      <button class="btn" onclick="filterSelection('ibanez')"> Ibanez</button>
+      </div>
+      <script type="text/javascript">
+              filterSelection("all")
+        function filterSelection(c) {
+          var x, i;
+          x = document.getElementsByClassName("filterDiv");
+          if (c == "all") c = "";
+
+          for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+          }
+        }
+
+        function w3AddClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {
+              element.className += " " + arr2[i];
+            }
+          }
+        }
+
+        function w3RemoveClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);
+            }
+          }
+          element.className = arr1.join(" ");
+        }
+
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+      </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $(".filterDiv vioolbas hofner flip-card-inner").remove();
+  });
+});
+</script>
+  </body>
+</html>
